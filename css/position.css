@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.static{
+    font-size: 25px;
+    border: 1px solid;
+    position: static;
+    left: 20%;
+    top: 20%;
+}
+
+.sticky{
+     background-color: black;
+     overflow: hidden;
+     position: sticky;
+     top: 0;
+     margin: 20px;
+     z-index: 1;
+}
+.sticky ul{
+    list-style-type: none;
+    color: white;
+    font-size: 30px;
+}
+
+.sticky ul li{
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sticky li:hover{
+    opacity: .6;
+}
+
+.background{
+    background-image: url('potatos.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.background div{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    left: 40%;
+    top: 30%;
+}
+
+.overflow{
+    border: 1px solid ;
+    margin: 20px;
+    height: 300px;
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    overflow: scroll;
+}
+
+.fixed{
+    position: fixed;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+    bottom: 5%;
+    right: 3%;
+}

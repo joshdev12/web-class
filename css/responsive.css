@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    font-size: 33px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.image{
+    float: left;
+    width: 24.5%;
+    margin-left: 2px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.num{
+    background-color: rgb(229, 170, 34);
+    display: flex;
+    clear: both;
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* justify-content:space-between ; */
+    /* justify-content:space-around ; */
+    /* justify-content:space-evenly ; */
+    /* justify-content:center ; */
+    /* justify-content:flex-end ; */
+    /* justify-content:flex-start ; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction:row-reverse ; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: ; */
+    height: 300px;
+
+}
+
+.num div {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    /* width: 20%; */
+}
+
+
+
+@media(max-width:768px){
+    .image{
+        width: 45%;
+        margin-left: 15px;
+    }
+}
+
+@media(max-width:370px){
+    .image{
+        width: 100%;
+       
+    }
+
+    /* .image-content{
+        padding: 10px;
+    } */
+}

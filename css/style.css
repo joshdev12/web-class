@@ -1,0 +1,115 @@
+body{
+    max-width: 1700px;
+    margin: auto;
+}
+
+nav{
+    background-color: black;
+    overflow: hidden;
+}
+
+#navbar{
+    float: left;
+    list-style: none;
+}
+
+#navbar li{
+    float: left;
+    padding: 10px;
+    font-size: 20px
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+#group{
+    width: 100%;
+    /* border: 1px solid blue; */
+    border-collapse: collapse;
+    max-width: 50%;
+    margin: auto;
+}
+
+#group th{
+    background-color: green;
+    color: white;
+}
+
+#group th, td{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.656);
+    /* padding: 10px; */
+    height: 40px;
+    /* border-bottom: 1px solid rgba(128, 128, 128, 0.656); */
+}
+
+#group td{
+   vertical-align: bottom;
+}
+
+tr:nth-child(even){
+    background-color: rgb(192, 192, 192);
+}
+
+tr:hover{
+    background-color: whitesmoke;
+}
+
+.display p{
+background-color: rgb(150, 66, 27);
+font-size: 30px;
+color: white;
+display: inline;
+}
+
+.display span{
+    background-color: rgb(27, 82, 150);
+    font-size: 30px;
+    color: white;
+    display: block;
+}
+
+.display b{
+    background-color: rgb(27, 82, 150);
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    width: 300px;
+}
+
+.flow{
+    margin: 30px;
+}
+
+.flow img{
+    float: left;
+}
+
+.second-flow{
+    border: 1px solid blue;
+    overflow: auto;
+}
+
+.second-flow img{
+    float: left;
+}
+
+.float_img{
+    float: left;
+    width: 30.333%;
+    margin: 1.5%;
+}
+
+.float_img img{
+    width: 100%;
+}
+
+.float_img p{
+    text-align: center
+}
+
+
+/* .none:hover{
+    display: none;
+} */
